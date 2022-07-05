@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Typescript</title>
+  </head>
+  <body>
+    <div class="list">
+      <ul></ul>
+    </div>
+    <form class="form-add-finance">
+      <div class="field">
+        <label for="type">Type</label>
+        <select name="type" id="type">
+          <option value="Invoice">Invoice</option>
+          <option value="Payment">Payment</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="tofrom">To/From</label>
+        <input type="text" name="tofrom" id="tofrom" required />
+      </div>
+
+      <div class="field">
+        <label for="details">Details</label>
+        <input type="text" name="details" id="details" required />
+      </div>
+      <div class="field">
+        <label for="amount">Amount</label>
+        <input type="number" min="1" name="amount" id="amount" required />
+      </div>
+
+      <div class="field">
+        <button class="btn" id="addBtn">Add</button>
+      </div>
+    </form>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

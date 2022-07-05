@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-add-finance {
+  width: 100%;
+  background: dodgerblue;
+  position: fixed;
+  bottom: 0;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: helvetica;
+  flex-wrap: wrap;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.field label {
+  margin: 5px 0px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.field input,
+.field select {
+  padding: 5px;
+  border: 1px solid #fff;
+}
+
+input[name="details"] {
+  width: 600px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.list {
+  max-width: 900px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 30px 10px;
+  background-color: violet;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.list ul li {
+  background: #fff;
+  padding: 10px;
+  font-family: helvetica;
+  margin-bottom: 10px;
+}
+
+.list ul li h3 {
+  color: purple;
+  margin-bottom: 5px;
+}
+
+.list ul li p {
+  font-size: 1rem;
+}
